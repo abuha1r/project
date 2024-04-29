@@ -1,0 +1,40 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url("C:/Users/abunya/IdeaProjects/project/img/back.jpg");
+  background-size: 100% 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#container{
+  width: 20%;
+  height: auto;
+  border-radius: 100px;
+  font-size: 25px;
+  background: darksalmon;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form input, form select{
+  margin: 6px 0;
+  padding: 20px;
+  font-size: 16px;
+}
+form select{
+  margin: 6px;
+  padding: 13px;
+  font-size: 16px;
+}
+button{
+  font-size: 20px;
+  width: 120px;
+  margin: 10px;
+  padding-top: 25px;
+  background: #FF00CF00;
+  color: black;
+  border: 0;
+  cursor: pointer;
+}
